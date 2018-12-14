@@ -6,20 +6,20 @@ to do
 ### 2. Usable shortcodes
 #### 2.1 Headers
 ```
-# HEADER 1
-## HEADER 2
-### HEADER 3
-#### HEADER 4
-##### HEADER 5
-###### HEADER 6
+# header 1
+## header 2
+### header 3
+#### header 4
+##### header 5
+###### header 6
 ```
 
 #### 2.2 Header underline
 ```
-"HEADER 1 UNDERLINE"
+"header 1 underline"
 ====================
 
-"HEADER 2 UNDERLINE"
+"header 2 underline"
 --------------------
 ```
 
@@ -48,8 +48,59 @@ E.g.:
 ```
 
 #### 2.5 Links
-
+```
 [link text](https://link.tld)
 [link text + title](https://link.tld "title")
-[link text verwijzing]
-[link text verwijzing]: https://link.tld
+```
+
+#### 2.6 Images
+```
+![alt text](https://link.tld/image.ext "title")
+```
+
+#### 2.7 Code
+```
+inline `code`
+```
+````
+```
+code block
+```
+````
+
+#### 2.8 Tables
+```
+| Row 1       | Row 2         | Row 3          |
+| ----------- | :-----------: | -------------: |
+| Column 3 is | right-aligned | **bold value** |
+| Column 2 is | centered      | *italic value* |
+```
+
+#### 2.9 Blockquotes
+```
+> blockquote
+> same blockquote
+```
+
+#### 2.10 Horizontal rule
+```
+One of these:
+---
+***
+___
+```
+
+#### 2.11 Carousel block
+```
+To be determined
+```
+
+#### 2.12 Expansion block
+```
+To be determined
+```
+
+#### 2.13 Privacy overview block
+```
+To be determined
+```
